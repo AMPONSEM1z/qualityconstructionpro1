@@ -1,0 +1,24 @@
+{
+  "name": "construction-website-server",
+  "version": "1.0.0",
+  "description": "Backend API server for BuildPro Construction website",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["construction", "api", "express", "nodemailer"],
+  "author": "BuildPro Construction",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "nodemailer": "^6.9.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
